@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projeto Agrinho - Cultivando o Amanhã</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <img src="imagens/logo.png" alt="Logo Agrinho" class="logo" />
+    <h1>Projeto Agrinho</h1>
+    <p>Cultivando o Amanhã</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#objetivo">Objetivo</a></li>
+      <li><a href="#atividades">Atividades</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#publico">Público-alvo</a></li>
+      <li><a href="#avaliacao">Avaliação</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="objetivo" class="card">
+      <h2>🌱 Objetivo</h2>
+      <p>Promover a consciência ambiental e cidadã nas crianças por meio de atividades educativas ligadas ao campo e à sustentabilidade.</p>
+    </section>
+
+    <section id="atividades" class="card">
+      <h2>🎯 Atividades</h2>
+      <ul>
+        <li>Criação de horta escolar sustentável</li>
+        <li>Oficinas de reciclagem criativa</li>
+        <li>Contação de histórias do campo</li>
+        <li>Dia do Campo com a comunidade</li>
+      </ul>
+      <button onclick="mostrarMensagem()">Saiba mais</button>
+    </section>
+
+    <section id="galeria" class="card">
+      <h2>📸 Galeria de Fotos</h2>
+      <div class="carousel">
+        <button class="btn prev" aria-label="Foto anterior">&#10094;</button>
+        <div class="carousel-images">
+          <img src="imagens/foto1.jpg" alt="Foto 1" class="active" />
+          <img src="imagens/foto2.jpg" alt="Foto 2" />
+          <img src="imagens/foto3.jpg" alt="Foto 3" />
+        </div>
+        <button class="btn next" aria-label="Próxima foto">&#10095;</button>
+      </div>
+    </section>
+
+    <section id="publico" class="card">
+      <h2>🧑‍🏫 Público-alvo</h2>
+      <p>Estudantes do Ensino Fundamental, com foco em anos iniciais.</p>
+    </section>
+
+    <section id="avaliacao" class="card">
+      <h2>🔍 Avaliação</h2>
+      <p>Avaliação contínua com base na participação, colaboração e engajamento dos alunos.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Projeto Agrinho - Escola Sustentável</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
